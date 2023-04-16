@@ -1,8 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.scss";
 
 function App() {
+  // 'react/react-in-jsx-scope': 'off'
+
   return (
     <div className="App">
       <header className="App-header">
